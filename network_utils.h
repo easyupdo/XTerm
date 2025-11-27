@@ -21,7 +21,11 @@ public:
         QString cmd;
         QStringList args;
         cmd = "ping";
-        args << "-c" << "1"<<"-W"<<"3"<<ip;
+        #ifdef Q_OS_LINUX
+            args << "-c" << "1"<<"-W"<<"3"<<ip;
+        #else
+            args << "-n" << "1"<<"-w"<<"3"<<ip;
+        #endif
 
 
         process.start(cmd,args);
