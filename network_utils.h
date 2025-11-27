@@ -16,32 +16,10 @@ public:
 
     }
     ~Ping(){}
-    bool pingHost(const QString &ip){
-        QProcess process;
-        QString cmd;
-        QStringList args;
-        cmd = "ping";
-        #ifdef Q_OS_LINUX
-            qDebug()<<"Linux";
-            args << "-c" << "1"<<"-W"<<"3"<<ip;
-        #else
-            qDebug()<<"Windows";
-            args << "-n" << "1"<<"-w"<<"3"<<ip;
-        #endif
-
-
-        process.start(cmd,args);
-        process.waitForFinished(500);
-        if(process.exitCode() == 0){
-            qDebug()<<"ip:"<<ip <<" Exit";
-            QString output = process.readAllStandardOutput();
-            if(output.contains("TTL=")||output.contains("ttl=")|| output.contains("bytes from")){
-                return true;
-            }
-        }
-        return false;
-    }
+    bool pingHost(const QString &ip);
 };
+
+class network_utils;
 
 class PingTask : public QRunnable {
 public:
@@ -51,15 +29,7 @@ public:
 
     ~PingTask(){}
 
-    void run() override{
-        Ping nu;
-        bool online = nu.pingHost(ip_);
-        qDebug()<<"ip"<<ip_<<"run over online:"<<online;
-        if(online && receiver_){
-            //
-            QMetaObject::invokeMethod(receiver_,"hostOnline",Qt::QueuedConnection,Q_ARG(QString,ip_));
-        }
-    }
+    void run() override;
 
 private:
     QString ip_;
@@ -74,16 +44,7 @@ public:
     network_utils(QObject * parent = nullptr):QObject(parent){}
     virtual ~network_utils(){}
 
-    void scanRange(const QString&ip,int start,int end){
-
-        for(int i = start;i<end;i++){
-            QString _ip = QString("%1.%2").arg(ip).arg(i);
-            qDebug()<<"BaseIP:"<<_ip;
-            PingTask * task = new PingTask(_ip,this);
-            pool_.start(task);
-        }
-        pool_.waitForDone();
-    }
+    void scanRange(const QString&ip,int start,int end);
 
 signals:
     void hostOnline(const QString&ip);
