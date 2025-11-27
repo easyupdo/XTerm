@@ -40,14 +40,16 @@ private:
 class network_utils : public QObject{
     Q_OBJECT
 public:
-        // pool_.setMaxThreadCount(10);
-    network_utils(QObject * parent = nullptr):QObject(parent){}
+    network_utils(QObject * parent = nullptr):QObject(parent){
+        pool_.setMaxThreadCount(10);
+    }
     virtual ~network_utils(){}
 
     void scanRange(const QString&ip,int start,int end);
 
 signals:
     void hostOnline(const QString&ip);
+    void scanFinished();
 
 private:
     QThreadPool pool_;

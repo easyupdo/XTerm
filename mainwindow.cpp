@@ -28,5 +28,7 @@ void MainWindow::on_actionEditor_triggered()
     qDebug()<<"Editor";
     Editor * editor = new Editor("");
     editor->show();
+
 }
+
 
