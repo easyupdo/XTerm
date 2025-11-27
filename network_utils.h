@@ -22,8 +22,10 @@ public:
         QStringList args;
         cmd = "ping";
         #ifdef Q_OS_LINUX
+            qDebug()<<"Linux";
             args << "-c" << "1"<<"-W"<<"3"<<ip;
         #else
+            qDebug()<<"Windows";
             args << "-n" << "1"<<"-w"<<"3"<<ip;
         #endif
 

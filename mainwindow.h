@@ -20,6 +20,8 @@ public:
 private slots:
     void on_actionNetwork_Scanner_triggered();
 
+    void on_actionEditor_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

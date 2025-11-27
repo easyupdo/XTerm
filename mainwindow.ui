@@ -100,6 +100,7 @@
      <string>Tools</string>
     </property>
     <addaction name="actionNetwork_Scanner"/>
+    <addaction name="actionEditor"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -125,6 +126,11 @@
   <action name="actionNetwork_Scanner">
    <property name="text">
     <string>Network Scanner</string>
+   </property>
+  </action>
+  <action name="actionEditor">
+   <property name="text">
+    <string>Editor</string>
    </property>
   </action>
  </widget>

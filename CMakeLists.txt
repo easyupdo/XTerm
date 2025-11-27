@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(Term VERSION 0.1 LANGUAGES CXX)
+project(XTerm VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -40,6 +40,7 @@ else()
             ${PROJECT_SOURCES}
             network_scanner.h network_scanner.cpp network_scanner.ui
             network_utils.h network_utils.cpp
+            editor.h editor.cpp
 
         )
     endif()
