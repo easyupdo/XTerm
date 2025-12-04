@@ -3,6 +3,7 @@
 #include <QDebug>
 #include "./network_scanner.h"
 #include "./editor.h"
+#include "./system_designer.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -31,4 +32,11 @@ void MainWindow::on_actionEditor_triggered()
 
 }
 
+
+
+void MainWindow::on_actionSystem_Designer_triggered()
+{
+    system_designer * sys_designer = new system_designer();
+    sys_designer->show();
+}
 

@@ -22,6 +22,8 @@ private slots:
 
     void on_actionEditor_triggered();
 
+    void on_actionSystem_Designer_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

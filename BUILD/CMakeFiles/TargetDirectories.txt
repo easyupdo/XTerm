@@ -1,0 +1,8 @@
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/Term.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/edit_cache.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/rebuild_cache.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/list_install_components.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/install.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/install/local.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/install/strip.dir
+/home/linux/Data/qt/XTerm/BUILD/CMakeFiles/Term_autogen.dir

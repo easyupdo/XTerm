@@ -101,6 +101,7 @@
     </property>
     <addaction name="actionNetwork_Scanner"/>
     <addaction name="actionEditor"/>
+    <addaction name="actionSystem_Designer"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -131,6 +132,11 @@
   <action name="actionEditor">
    <property name="text">
     <string>Editor</string>
+   </property>
+  </action>
+  <action name="actionSystem_Designer">
+   <property name="text">
+    <string>System Designer</string>
    </property>
   </action>
  </widget>

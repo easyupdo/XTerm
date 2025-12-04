@@ -41,6 +41,11 @@ else()
             network_scanner.h network_scanner.cpp network_scanner.ui
             network_utils.h network_utils.cpp
             editor.h editor.cpp
+            system_designer.h system_designer.cpp system_designer.ui
+            graphicsnodeitem.h graphicsnodeitem.cpp
+            graphicsnodescene.h graphicsnodescene.cpp
+
+
 
         )
     endif()
