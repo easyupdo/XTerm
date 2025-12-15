@@ -102,6 +102,7 @@
     <addaction name="actionNetwork_Scanner"/>
     <addaction name="actionEditor"/>
     <addaction name="actionSystem_Designer"/>
+    <addaction name="actionCamera_Spy"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -137,6 +138,11 @@
   <action name="actionSystem_Designer">
    <property name="text">
     <string>System Designer</string>
+   </property>
+  </action>
+  <action name="actionCamera_Spy">
+   <property name="text">
+    <string>Camera Spy</string>
    </property>
   </action>
  </widget>

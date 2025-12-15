@@ -4,6 +4,9 @@
 #include "./network_scanner.h"
 #include "./editor.h"
 #include "./system_designer.h"
+
+#include "cameraspy.h"
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -38,5 +41,12 @@ void MainWindow::on_actionSystem_Designer_triggered()
 {
     system_designer * sys_designer = new system_designer();
     sys_designer->show();
+}
+
+// camera
+void MainWindow::on_actionCamera_Spy_triggered()
+{
+    CameraSpy * camera = new CameraSpy();
+    camera->show();
 }
 

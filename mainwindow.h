@@ -24,6 +24,8 @@ private slots:
 
     void on_actionSystem_Designer_triggered();
 
+    void on_actionCamera_Spy_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
