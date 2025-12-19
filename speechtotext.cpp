@@ -28,6 +28,22 @@ SpeechToText::SpeechToText(QWidget *parent)
         }
     });
     timer_.start(1000);
+
+    ui->horizontalSlider->setMaximum(player_.position());
+    ui->horizontalSlider->setMinimum(0);
+    ui->horizontalSlider->setValue(0);
+    connect(&player_,&QMediaPlayer::positionChanged,this,[&](qint64 position){
+
+        ui->horizontalSlider->setValue(position);
+        qDebug()<<"voice position:"<<position;
+    });
+    connect(&player_,&QMediaPlayer::durationChanged,this,[&](qint64 duration){
+        ui->horizontalSlider->setRange(0,static_cast<int>(duration));
+    });
+    connect(ui->horizontalSlider,&QSlider::sliderMoved,this,[&](int value){
+        player_.setPosition(value);
+    });
+
 }
 
 SpeechToText::~SpeechToText()
@@ -500,5 +516,15 @@ void SpeechToText::on_pushButton_2_clicked()
             }
     }
 
+}
+
+//播放
+void SpeechToText::on_toolButton_3_clicked()
+{
+    QString voice_file = ui->label->text();
+    player_.setMedia(QUrl::fromLocalFile(voice_file));
+    ui->horizontalSlider->setMaximum(player_.duration());
+    qDebug()<<"max position:"<<player_.duration();
+    player_.play();
 }
 

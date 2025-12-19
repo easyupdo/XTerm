@@ -5,6 +5,8 @@
 #include <QQueue>
 #include <QMutex>
 #include <QTimer>
+#include <QMediaPlayer>
+#include <QSlider>
 namespace Ui {
 class SpeechToText;
 }
@@ -22,10 +24,13 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_toolButton_3_clicked();
+
 private:
     Ui::SpeechToText *ui;
     static QString g_stt_text;
     QTimer timer_;
+    QMediaPlayer player_;
 public:
     static QMutex g_mutx;
     static QQueue<QString> g_queue;
