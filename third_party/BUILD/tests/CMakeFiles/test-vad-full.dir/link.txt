@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/test-vad-full.dir/test-vad-full.cpp.o" -o ../bin/test-vad-full  -Wl,-rpath,/home/linux/Data/qt/XTerm/third_party/BUILD/src:/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src ../examples/libcommon.a ../src/libwhisper.so.1.8.2 ../ggml/src/libggml.so ../ggml/src/libggml-cpu.so ../ggml/src/libggml-base.so -ldl 

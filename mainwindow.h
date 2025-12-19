@@ -26,6 +26,8 @@ private slots:
 
     void on_actionCamera_Spy_triggered();
 
+    void on_actionTts_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

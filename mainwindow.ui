@@ -103,6 +103,7 @@
     <addaction name="actionEditor"/>
     <addaction name="actionSystem_Designer"/>
     <addaction name="actionCamera_Spy"/>
+    <addaction name="actionTts"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -143,6 +144,11 @@
   <action name="actionCamera_Spy">
    <property name="text">
     <string>Camera Spy</string>
+   </property>
+  </action>
+  <action name="actionTts">
+   <property name="text">
+    <string>STT</string>
    </property>
   </action>
  </widget>

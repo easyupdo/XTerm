@@ -1,0 +1,224 @@
+[
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-alloc.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-alloc.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-backend.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-backend.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-opt.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-opt.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-threading.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-threading.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-quants.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"acfb012\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/gguf.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/gguf.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/repack.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/repack.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/hbm.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/hbm.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/quants.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/traits.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/traits.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/binary-ops.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/binary-ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/unary-ops.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/unary-ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/vec.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/vec.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ops.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/arch/x86/quants.c",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/arch/x86/quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/.. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/arch/x86/repack.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-cpu/arch/x86/repack.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-backend-reg.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/ggml-backend-reg.cpp",
+  "output": "ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DWHISPER_BUILD -DWHISPER_SHARED -DWHISPER_VERSION=\\\"1.8.2\\\" -Dwhisper_EXPORTS -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -o CMakeFiles/whisper.dir/whisper.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/whisper.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/whisper.cpp",
+  "output": "src/CMakeFiles/whisper.dir/whisper.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/tests",
+  "command": "/usr/bin/c++ -DSAMPLE_PATH=\\\"/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/samples/jfk.wav\\\" -DVAD_MODEL_PATH=\\\"/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/models/for-tests-silero-v5.1.2-ggml.bin\\\" -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../ggml/include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../examples -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/test-vad.dir/test-vad.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/test-vad.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/test-vad.cpp",
+  "output": "tests/CMakeFiles/test-vad.dir/test-vad.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/tests",
+  "command": "/usr/bin/c++ -DSAMPLE_PATH=\\\"/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/samples/jfk.wav\\\" -DVAD_MODEL_PATH=\\\"/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/models/for-tests-silero-v5.1.2-ggml.bin\\\" -DWHISPER_MODEL_PATH=\\\"/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/models/ggml-base.en.bin\\\" -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../ggml/include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/../examples -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/test-vad-full.dir/test-vad-full.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/test-vad-full.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/tests/test-vad-full.cpp",
+  "output": "tests/CMakeFiles/test-vad-full.dir/test-vad-full.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/common.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common.cpp",
+  "output": "examples/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/common-ggml.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common-ggml.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common-ggml.cpp",
+  "output": "examples/CMakeFiles/common.dir/common-ggml.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/common-whisper.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common-whisper.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/common-whisper.cpp",
+  "output": "examples/CMakeFiles/common.dir/common-whisper.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/grammar-parser.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/grammar-parser.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/grammar-parser.cpp",
+  "output": "examples/CMakeFiles/common.dir/grammar-parser.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/cli",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/whisper-cli.dir/cli.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/cli/cli.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/cli/cli.cpp",
+  "output": "examples/cli/CMakeFiles/whisper-cli.dir/cli.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/bench",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/whisper-bench.dir/bench.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/bench/bench.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/bench/bench.cpp",
+  "output": "examples/bench/CMakeFiles/whisper-bench.dir/bench.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/server",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/whisper-server.dir/server.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/server/server.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/server/server.cpp",
+  "output": "examples/server/CMakeFiles/whisper-server.dir/server.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/quantize",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/quantize.dir/quantize.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/quantize/quantize.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/quantize/quantize.cpp",
+  "output": "examples/quantize/CMakeFiles/quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/vad-speech-segments",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/. -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/src/../include -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/vad-speech-segments.dir/speech.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/vad-speech-segments/speech.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/vad-speech-segments/speech.cpp",
+  "output": "examples/vad-speech-segments/CMakeFiles/vad-speech-segments.dir/speech.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/deprecation-warning",
+  "command": "/usr/bin/c++  -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -O3 -DNDEBUG -o CMakeFiles/main.dir/deprecation-warning.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/deprecation-warning/deprecation-warning.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/deprecation-warning/deprecation-warning.cpp",
+  "output": "examples/deprecation-warning/CMakeFiles/main.dir/deprecation-warning.cpp.o"
+},
+{
+  "directory": "/home/linux/Data/qt/XTerm/third_party/BUILD/examples/deprecation-warning",
+  "command": "/usr/bin/c++  -I/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples -O3 -DNDEBUG -o CMakeFiles/bench.dir/deprecation-warning.cpp.o -c /home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/deprecation-warning/deprecation-warning.cpp",
+  "file": "/home/linux/Data/qt/XTerm/third_party/whisper.cpp-1.8.2/examples/deprecation-warning/deprecation-warning.cpp",
+  "output": "examples/deprecation-warning/CMakeFiles/bench.dir/deprecation-warning.cpp.o"
+}
+]

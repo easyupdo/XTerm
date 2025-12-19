@@ -4,6 +4,7 @@
 #include "./network_scanner.h"
 #include "./editor.h"
 #include "./system_designer.h"
+#include "speechtotext.h"
 
 #include "cameraspy.h"
 
@@ -48,5 +49,12 @@ void MainWindow::on_actionCamera_Spy_triggered()
 {
     CameraSpy * camera = new CameraSpy();
     camera->show();
+}
+
+// STT
+void MainWindow::on_actionTts_triggered()
+{
+    SpeechToText * stt = new SpeechToText();
+    stt->show();
 }
 

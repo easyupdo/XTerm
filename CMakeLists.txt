@@ -19,6 +19,20 @@ set(PROJECT_SOURCES
         mainwindow.ui
 )
 
+# # third_party build
+# add_subdirectory(${CMAKE_SOURCE_DIR}/third_party/whisper.cpp-1.8.2)
+
+# message("##################################:"${CMAKE_BINARY_DIR})
+# include_directories(${CMAKE_SOURCE_DIR}/third_party/whisper.cpp-1.8.2/include)
+
+# include_directories(${CMAKE_SOURCE_DIR}/third_party/whisper.cpp-1.8.2/ggml/include)
+# link_directories(${CMAKE_BINARY_DIR}/third_party/whisper.cpp-1.8.2/src)
+
+include_directories(${CMAKE_SOURCE_DIR}/third_party/INSTALL/include)
+link_directories(${CMAKE_SOURCE_DIR}/third_party/INSTALL/lib)
+include_directories(${CMAKE_SOURCE_DIR}/tts_utils)
+
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Term
         MANUAL_FINALIZATION
@@ -46,16 +60,14 @@ else()
             graphicsnodescene.h graphicsnodescene.cpp
             cameraspy.h cameraspy.cpp cameraspy.ui
             cameradevicesdialog.h cameradevicesdialog.cpp cameradevicesdialog.ui
-
-
-
-
+            speechtotext.h speechtotext.cpp speechtotext.ui
+            tts_utils/common.cpp tts_utils/common.h tts_utils/common-ggml.cpp tts_utils/common-ggml.h   tts_utils/common-whisper.cpp tts_utils/common-whisper.h tts_utils/grammar-parser.cpp tts_utils/grammar-parser.h tts_utils/json.hpp
 
         )
     endif()
 endif()
 
-target_link_libraries(Term PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Multimedia Qt${QT_VERSION_MAJOR}::MultimediaWidgets)
+target_link_libraries(Term PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Multimedia Qt${QT_VERSION_MAJOR}::MultimediaWidgets dl whisper ggml-base)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
